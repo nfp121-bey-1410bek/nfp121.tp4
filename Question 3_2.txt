@@ -1,0 +1,7 @@
+l'interface entre le modèle et le client. 
+Interpretation du requete.
+Synchronisation entre le modèle et la vue.
+Afficher les données sur le modèle.
+
+
+Architecture MVC ==> photo

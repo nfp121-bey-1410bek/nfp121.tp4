@@ -1,0 +1,18 @@
+        //A a 3
+        boutonA.addActionListener(new JButtonObserver("jbo1", contenu));
+        boutonA.addActionListener(new JButtonObserver("jbo2", contenu));
+        boutonA.addActionListener(new JButtonObserver("jbo3", contenu));
+        //B a 2
+        boutonB.addActionListener(new JButtonObserver("jbo1", contenu));
+        boutonB.addActionListener(new JButtonObserver("jbo2", contenu));
+        //C a 1
+        boutonC.addActionListener(new JButtonObserver("jbo1", contenu));
+
+        if (testSouris) {
+            //A a 1
+            boutonA.addMouseListener(new JMouseObserver("jmo1", contenu));
+            //B a 1
+            boutonB.addMouseListener(new JMouseObserver("jmo2", contenu));
+            //C a 1
+            boutonC.addMouseListener(new JMouseObserver("jmo3", contenu)); 
+        }
